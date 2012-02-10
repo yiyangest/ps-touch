@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSConnectionController.h"
 
-@interface showpsViewController : UIViewController
+@interface showpsViewController : UIViewController {
+    PSConnectionController * connectionController;
+}
+
+@property (nonatomic, retain) IBOutlet UIView * bottomBarView;
 
 @end

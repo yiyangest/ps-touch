@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class showpsViewController;
+
 @interface showpsAppDelegate : NSObject <UIApplicationDelegate> {
-    IBOutlet UIWindow *window;
+    UIWindow *window;
+    showpsViewController * viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet showpsViewController * viewController;
 
 @end

@@ -21,6 +21,31 @@
 		A5466A6514E4CFDB00FF36B9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5466A6414E4CFDB00FF36B9 /* MainWindow.xib */; };
 		A5466A6914E4D14900FF36B9 /* showpsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466A6814E4D14900FF36B9 /* showpsAppDelegate.m */; };
 		A5466A6C14E4F64200FF36B9 /* showpsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466A6B14E4F64200FF36B9 /* showpsViewController.m */; };
+		A5466B2C14E4FA2E00FF36B9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5466B2B14E4FA2E00FF36B9 /* Security.framework */; };
+		A5466B9814E4FBFC00FF36B9 /* ConnectButton_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5466B2F14E4FBFC00FF36B9 /* ConnectButton_Default.png */; };
+		A5466B9914E4FBFC00FF36B9 /* ConnectButton_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = A5466B3014E4FBFC00FF36B9 /* ConnectButton_Highlighted.png */; };
+		A5466BD214E4FBFC00FF36B9 /* NetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7014E4FBFC00FF36B9 /* NetConnection.m */; };
+		A5466BD314E4FBFC00FF36B9 /* NetServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7314E4FBFC00FF36B9 /* NetServer.m */; };
+		A5466BD414E4FBFC00FF36B9 /* NetServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7514E4FBFC00FF36B9 /* NetServerBrowser.m */; };
+		A5466BD514E4FBFC00FF36B9 /* PBKeyDerive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7814E4FBFC00FF36B9 /* PBKeyDerive.cpp */; };
+		A5466BD614E4FBFC00FF36B9 /* PhotoshopButton_Available.png in Resources */ = {isa = PBXBuildFile; fileRef = A5466B7914E4FBFC00FF36B9 /* PhotoshopButton_Available.png */; };
+		A5466BD714E4FBFC00FF36B9 /* PhotoshopButton_Connected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5466B7A14E4FBFC00FF36B9 /* PhotoshopButton_Connected.png */; };
+		A5466BD814E4FBFC00FF36B9 /* PhotoshopButton_Offline.png in Resources */ = {isa = PBXBuildFile; fileRef = A5466B7B14E4FBFC00FF36B9 /* PhotoshopButton_Offline.png */; };
+		A5466BD914E4FBFC00FF36B9 /* PSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7D14E4FBFC00FF36B9 /* PSConnection.m */; };
+		A5466BDA14E4FBFC00FF36B9 /* PSConnectionCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B7F14E4FBFC00FF36B9 /* PSConnectionCommands.m */; };
+		A5466BDB14E4FBFC00FF36B9 /* PSConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B8114E4FBFC00FF36B9 /* PSConnectionController.m */; };
+		A5466BDC14E4FBFC00FF36B9 /* PSConnectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8214E4FBFC00FF36B9 /* PSConnectionController.xib */; };
+		A5466BDD14E4FBFC00FF36B9 /* PSCryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5466B8314E4FBFC00FF36B9 /* PSCryptor.cpp */; };
+		A5466BDE14E4FBFC00FF36B9 /* PSServersController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B8714E4FBFC00FF36B9 /* PSServersController.m */; };
+		A5466BDF14E4FBFC00FF36B9 /* PSServersController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8814E4FBFC00FF36B9 /* PSServersController.xib */; };
+		A5466BE014E4FBFC00FF36B9 /* READ_ME.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8914E4FBFC00FF36B9 /* READ_ME.txt */; };
+		A5466BE114E4FBFC00FF36B9 /* ColorVar.jsx in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8B14E4FBFC00FF36B9 /* ColorVar.jsx */; };
+		A5466BE214E4FBFC00FF36B9 /* DeleteSwatchFunc.jsx in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8C14E4FBFC00FF36B9 /* DeleteSwatchFunc.jsx */; };
+		A5466BE314E4FBFC00FF36B9 /* MakeSwatchFunc.jsx in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8D14E4FBFC00FF36B9 /* MakeSwatchFunc.jsx */; };
+		A5466BE414E4FBFC00FF36B9 /* SubscribeToEventFunc.jsx in Resources */ = {isa = PBXBuildFile; fileRef = A5466B8E14E4FBFC00FF36B9 /* SubscribeToEventFunc.jsx */; };
+		A5466BE514E4FBFC00FF36B9 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B9114E4FBFC00FF36B9 /* SFHFKeychainUtils.m */; };
+		A5466BE614E4FBFC00FF36B9 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = A5466B9614E4FBFC00FF36B9 /* UIColor-Expanded.m */; };
+		A5466BEC14E507E600FF36B9 /* showpsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5466BEB14E507E600FF36B9 /* showpsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +80,46 @@
 		A5466A6814E4D14900FF36B9 /* showpsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showpsAppDelegate.m; sourceTree = "<group>"; };
 		A5466A6A14E4F64200FF36B9 /* showpsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showpsViewController.h; sourceTree = "<group>"; };
 		A5466A6B14E4F64200FF36B9 /* showpsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showpsViewController.m; sourceTree = "<group>"; };
+		A5466B2B14E4FA2E00FF36B9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A5466B2F14E4FBFC00FF36B9 /* ConnectButton_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectButton_Default.png; sourceTree = "<group>"; };
+		A5466B3014E4FBFC00FF36B9 /* ConnectButton_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectButton_Highlighted.png; sourceTree = "<group>"; };
+		A5466B6F14E4FBFC00FF36B9 /* NetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnection.h; sourceTree = "<group>"; };
+		A5466B7014E4FBFC00FF36B9 /* NetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetConnection.m; sourceTree = "<group>"; };
+		A5466B7114E4FBFC00FF36B9 /* NetConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnectionDelegate.h; sourceTree = "<group>"; };
+		A5466B7214E4FBFC00FF36B9 /* NetServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServer.h; sourceTree = "<group>"; };
+		A5466B7314E4FBFC00FF36B9 /* NetServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetServer.m; sourceTree = "<group>"; };
+		A5466B7414E4FBFC00FF36B9 /* NetServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServerBrowser.h; sourceTree = "<group>"; };
+		A5466B7514E4FBFC00FF36B9 /* NetServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetServerBrowser.m; sourceTree = "<group>"; };
+		A5466B7614E4FBFC00FF36B9 /* NetServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServerBrowserDelegate.h; sourceTree = "<group>"; };
+		A5466B7714E4FBFC00FF36B9 /* NetServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServerDelegate.h; sourceTree = "<group>"; };
+		A5466B7814E4FBFC00FF36B9 /* PBKeyDerive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBKeyDerive.cpp; sourceTree = "<group>"; };
+		A5466B7914E4FBFC00FF36B9 /* PhotoshopButton_Available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoshopButton_Available.png; sourceTree = "<group>"; };
+		A5466B7A14E4FBFC00FF36B9 /* PhotoshopButton_Connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoshopButton_Connected.png; sourceTree = "<group>"; };
+		A5466B7B14E4FBFC00FF36B9 /* PhotoshopButton_Offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoshopButton_Offline.png; sourceTree = "<group>"; };
+		A5466B7C14E4FBFC00FF36B9 /* PSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSConnection.h; sourceTree = "<group>"; };
+		A5466B7D14E4FBFC00FF36B9 /* PSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSConnection.m; sourceTree = "<group>"; };
+		A5466B7E14E4FBFC00FF36B9 /* PSConnectionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSConnectionCommands.h; sourceTree = "<group>"; };
+		A5466B7F14E4FBFC00FF36B9 /* PSConnectionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSConnectionCommands.m; sourceTree = "<group>"; };
+		A5466B8014E4FBFC00FF36B9 /* PSConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSConnectionController.h; sourceTree = "<group>"; };
+		A5466B8114E4FBFC00FF36B9 /* PSConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSConnectionController.m; sourceTree = "<group>"; };
+		A5466B8214E4FBFC00FF36B9 /* PSConnectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSConnectionController.xib; sourceTree = "<group>"; };
+		A5466B8314E4FBFC00FF36B9 /* PSCryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PSCryptor.cpp; sourceTree = "<group>"; };
+		A5466B8414E4FBFC00FF36B9 /* PSCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptor.h; sourceTree = "<group>"; };
+		A5466B8514E4FBFC00FF36B9 /* PSCryptorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCryptorAPI.h; sourceTree = "<group>"; };
+		A5466B8614E4FBFC00FF36B9 /* PSServersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSServersController.h; sourceTree = "<group>"; };
+		A5466B8714E4FBFC00FF36B9 /* PSServersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSServersController.m; sourceTree = "<group>"; };
+		A5466B8814E4FBFC00FF36B9 /* PSServersController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSServersController.xib; sourceTree = "<group>"; };
+		A5466B8914E4FBFC00FF36B9 /* READ_ME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = READ_ME.txt; sourceTree = "<group>"; };
+		A5466B8B14E4FBFC00FF36B9 /* ColorVar.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ColorVar.jsx; sourceTree = "<group>"; };
+		A5466B8C14E4FBFC00FF36B9 /* DeleteSwatchFunc.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeleteSwatchFunc.jsx; sourceTree = "<group>"; };
+		A5466B8D14E4FBFC00FF36B9 /* MakeSwatchFunc.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MakeSwatchFunc.jsx; sourceTree = "<group>"; };
+		A5466B8E14E4FBFC00FF36B9 /* SubscribeToEventFunc.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubscribeToEventFunc.jsx; sourceTree = "<group>"; };
+		A5466B9014E4FBFC00FF36B9 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		A5466B9114E4FBFC00FF36B9 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		A5466B9314E4FBFC00FF36B9 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		A5466B9514E4FBFC00FF36B9 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		A5466B9614E4FBFC00FF36B9 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		A5466BEB14E507E600FF36B9 /* showpsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = showpsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5466B2C14E4FA2E00FF36B9 /* Security.framework in Frameworks */,
 				A5466A3014E4CEC400FF36B9 /* UIKit.framework in Frameworks */,
 				A5466A3214E4CEC400FF36B9 /* Foundation.framework in Frameworks */,
 				A5466A3414E4CEC400FF36B9 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +150,7 @@
 		A5466A2014E4CEC400FF36B9 = {
 			isa = PBXGroup;
 			children = (
+				A5466B2D14E4FBFC00FF36B9 /* psconnection */,
 				A5466A6614E4D0CA00FF36B9 /* Classes */,
 				A5466A6214E4CFA000FF36B9 /* Resources */,
 				A5466A3514E4CEC400FF36B9 /* showps */,
@@ -105,6 +172,7 @@
 		A5466A2E14E4CEC400FF36B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5466B2B14E4FA2E00FF36B9 /* Security.framework */,
 				A5466A2F14E4CEC400FF36B9 /* UIKit.framework */,
 				A5466A3114E4CEC400FF36B9 /* Foundation.framework */,
 				A5466A3314E4CEC400FF36B9 /* CoreGraphics.framework */,
@@ -157,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				A5466A6414E4CFDB00FF36B9 /* MainWindow.xib */,
+				A5466BEB14E507E600FF36B9 /* showpsViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -170,6 +239,92 @@
 				A5466A6B14E4F64200FF36B9 /* showpsViewController.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		A5466B2D14E4FBFC00FF36B9 /* psconnection */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B2F14E4FBFC00FF36B9 /* ConnectButton_Default.png */,
+				A5466B3014E4FBFC00FF36B9 /* ConnectButton_Highlighted.png */,
+				A5466B6E14E4FBFC00FF36B9 /* networking */,
+				A5466B7814E4FBFC00FF36B9 /* PBKeyDerive.cpp */,
+				A5466B7914E4FBFC00FF36B9 /* PhotoshopButton_Available.png */,
+				A5466B7A14E4FBFC00FF36B9 /* PhotoshopButton_Connected.png */,
+				A5466B7B14E4FBFC00FF36B9 /* PhotoshopButton_Offline.png */,
+				A5466B7C14E4FBFC00FF36B9 /* PSConnection.h */,
+				A5466B7D14E4FBFC00FF36B9 /* PSConnection.m */,
+				A5466B7E14E4FBFC00FF36B9 /* PSConnectionCommands.h */,
+				A5466B7F14E4FBFC00FF36B9 /* PSConnectionCommands.m */,
+				A5466B8014E4FBFC00FF36B9 /* PSConnectionController.h */,
+				A5466B8114E4FBFC00FF36B9 /* PSConnectionController.m */,
+				A5466B8214E4FBFC00FF36B9 /* PSConnectionController.xib */,
+				A5466B8314E4FBFC00FF36B9 /* PSCryptor.cpp */,
+				A5466B8414E4FBFC00FF36B9 /* PSCryptor.h */,
+				A5466B8514E4FBFC00FF36B9 /* PSCryptorAPI.h */,
+				A5466B8614E4FBFC00FF36B9 /* PSServersController.h */,
+				A5466B8714E4FBFC00FF36B9 /* PSServersController.m */,
+				A5466B8814E4FBFC00FF36B9 /* PSServersController.xib */,
+				A5466B8914E4FBFC00FF36B9 /* READ_ME.txt */,
+				A5466B8A14E4FBFC00FF36B9 /* scripts */,
+				A5466B8F14E4FBFC00FF36B9 /* sfhfkeychainutils */,
+				A5466B9214E4FBFC00FF36B9 /* synthesizesingleton */,
+				A5466B9414E4FBFC00FF36B9 /* uicolorexpanded */,
+			);
+			name = psconnection;
+			path = ../psconnection;
+			sourceTree = "<group>";
+		};
+		A5466B6E14E4FBFC00FF36B9 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B6F14E4FBFC00FF36B9 /* NetConnection.h */,
+				A5466B7014E4FBFC00FF36B9 /* NetConnection.m */,
+				A5466B7114E4FBFC00FF36B9 /* NetConnectionDelegate.h */,
+				A5466B7214E4FBFC00FF36B9 /* NetServer.h */,
+				A5466B7314E4FBFC00FF36B9 /* NetServer.m */,
+				A5466B7414E4FBFC00FF36B9 /* NetServerBrowser.h */,
+				A5466B7514E4FBFC00FF36B9 /* NetServerBrowser.m */,
+				A5466B7614E4FBFC00FF36B9 /* NetServerBrowserDelegate.h */,
+				A5466B7714E4FBFC00FF36B9 /* NetServerDelegate.h */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		A5466B8A14E4FBFC00FF36B9 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B8B14E4FBFC00FF36B9 /* ColorVar.jsx */,
+				A5466B8C14E4FBFC00FF36B9 /* DeleteSwatchFunc.jsx */,
+				A5466B8D14E4FBFC00FF36B9 /* MakeSwatchFunc.jsx */,
+				A5466B8E14E4FBFC00FF36B9 /* SubscribeToEventFunc.jsx */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		A5466B8F14E4FBFC00FF36B9 /* sfhfkeychainutils */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B9014E4FBFC00FF36B9 /* SFHFKeychainUtils.h */,
+				A5466B9114E4FBFC00FF36B9 /* SFHFKeychainUtils.m */,
+			);
+			path = sfhfkeychainutils;
+			sourceTree = "<group>";
+		};
+		A5466B9214E4FBFC00FF36B9 /* synthesizesingleton */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B9314E4FBFC00FF36B9 /* SynthesizeSingleton.h */,
+			);
+			path = synthesizesingleton;
+			sourceTree = "<group>";
+		};
+		A5466B9414E4FBFC00FF36B9 /* uicolorexpanded */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B9514E4FBFC00FF36B9 /* UIColor-Expanded.h */,
+				A5466B9614E4FBFC00FF36B9 /* UIColor-Expanded.m */,
+			);
+			path = uicolorexpanded;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +399,19 @@
 			files = (
 				A5466A3A14E4CEC400FF36B9 /* InfoPlist.strings in Resources */,
 				A5466A6514E4CFDB00FF36B9 /* MainWindow.xib in Resources */,
+				A5466B9814E4FBFC00FF36B9 /* ConnectButton_Default.png in Resources */,
+				A5466B9914E4FBFC00FF36B9 /* ConnectButton_Highlighted.png in Resources */,
+				A5466BD614E4FBFC00FF36B9 /* PhotoshopButton_Available.png in Resources */,
+				A5466BD714E4FBFC00FF36B9 /* PhotoshopButton_Connected.png in Resources */,
+				A5466BD814E4FBFC00FF36B9 /* PhotoshopButton_Offline.png in Resources */,
+				A5466BDC14E4FBFC00FF36B9 /* PSConnectionController.xib in Resources */,
+				A5466BDF14E4FBFC00FF36B9 /* PSServersController.xib in Resources */,
+				A5466BE014E4FBFC00FF36B9 /* READ_ME.txt in Resources */,
+				A5466BE114E4FBFC00FF36B9 /* ColorVar.jsx in Resources */,
+				A5466BE214E4FBFC00FF36B9 /* DeleteSwatchFunc.jsx in Resources */,
+				A5466BE314E4FBFC00FF36B9 /* MakeSwatchFunc.jsx in Resources */,
+				A5466BE414E4FBFC00FF36B9 /* SubscribeToEventFunc.jsx in Resources */,
+				A5466BEC14E507E600FF36B9 /* showpsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,17 @@
 				A5466A4014E4CEC400FF36B9 /* AppDelegate.m in Sources */,
 				A5466A6914E4D14900FF36B9 /* showpsAppDelegate.m in Sources */,
 				A5466A6C14E4F64200FF36B9 /* showpsViewController.m in Sources */,
+				A5466BD214E4FBFC00FF36B9 /* NetConnection.m in Sources */,
+				A5466BD314E4FBFC00FF36B9 /* NetServer.m in Sources */,
+				A5466BD414E4FBFC00FF36B9 /* NetServerBrowser.m in Sources */,
+				A5466BD514E4FBFC00FF36B9 /* PBKeyDerive.cpp in Sources */,
+				A5466BD914E4FBFC00FF36B9 /* PSConnection.m in Sources */,
+				A5466BDA14E4FBFC00FF36B9 /* PSConnectionCommands.m in Sources */,
+				A5466BDB14E4FBFC00FF36B9 /* PSConnectionController.m in Sources */,
+				A5466BDD14E4FBFC00FF36B9 /* PSCryptor.cpp in Sources */,
+				A5466BDE14E4FBFC00FF36B9 /* PSServersController.m in Sources */,
+				A5466BE514E4FBFC00FF36B9 /* SFHFKeychainUtils.m in Sources */,
+				A5466BE614E4FBFC00FF36B9 /* UIColor-Expanded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

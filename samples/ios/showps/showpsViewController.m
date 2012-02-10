@@ -7,14 +7,18 @@
 //
 
 #import "showpsViewController.h"
+#import "PSConnectionCommands.h"
 
 @implementation showpsViewController
+
+@synthesize bottomBarView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        connectionController = nil;
     }
     return self;
 }
@@ -36,16 +40,25 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    connectionController = [[PSConnectionController alloc] initWithNibName:@"PSConnectionController" bundle:nil];
+    [bottomBarView addSubview:connectionController.view];
+//    CGRect frame = connectionController.view.bounds;
+//    frame.origin.x = 200;
+//    frame.origin.y = 11;
+//    connectionController.view.frame = frame;
+//    connectionController.view.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+    
 }
-*/
 
 - (void)viewDidUnload
 {
+    [connectionController release];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
